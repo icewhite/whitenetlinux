@@ -1,5 +1,11 @@
-echo Hello
+echo "Hello - welcome to whitenetlinux!"
 
-sudo apt-get install zsh
+if ! command -v <the_command> &> /dev/null
+then
+    sudo apt-get install zsh
+elif
+  echo zsh already installed
+fi
+
 
 
